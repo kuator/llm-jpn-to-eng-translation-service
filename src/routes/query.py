@@ -1,5 +1,5 @@
 from typing import Annotated
-from fastapi import APIRouter, Body, Depends
+from fastapi import APIRouter, Depends
 from src.dependencies import get_translation_service
 from src.schemas.query import QueryRequest, QueryResponse
 from src.services.translation_service import TranslationService
